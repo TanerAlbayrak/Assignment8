@@ -34,7 +34,6 @@ and open the template in the editor.
 <div class="panelContainer">
 <div id="panel1" class="panel">
 <h2>Panel 1 content</h2>
-<h2>Assignment 7: jQuery Validation</h2>
         <br>
         <form id="tableForm" action="%20" method="GET">
             Multiplier 1: <input type="text" name="rowStart" id="rowStart"><br>
@@ -53,7 +52,20 @@ and open the template in the editor.
 </div>
 <div id="panel2" class="panel">
 <h2>Panel 2 content</h2>
-<p style="text-align:center;margin-top: 25px;"><img src="../_images/large/slide4.jpg" width="610" height="342" alt="tees"></p></div>
+<form id="tableForm" action="%20" method="GET">
+            Multiplier 1: <input type="text" name="rowStart" id="rowStart"><br>
+            Multiplier 2: <input type="text" name="rowEnd" id="rowEnd"><br>
+            Multiplicand 1: <input type="text" name="colStart" id="colStart"><br>
+            Multiplicand 2: <input type="text" name="colEnd" id="colEnd"><br>
+            <input type="submit" value="Submit" onclick="makeTable(); return false;">
+        </form><br>
+            
+        <div id="multTable">
+            
+        </div>
+        
+        <div id="errors">
+        </div>
 <div id="panel3" class="panel">
 <h2>Panel 3 content</h2>
 </div>
