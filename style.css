@@ -7,6 +7,48 @@ and open the template in the editor.
     Created on : Nov 19, 2015, 9:37:59 PM
     Author     : Taner
 */
+/*
+Taner Albayrak
+Taner_Albayrak@student.uml.edu
+*/
+
+input[type="submit"] {
+    color: blue;
+}
+
+.tab {
+    border: 1px solid black ;
+    margin-left: 100px ;
+}
+
+.tab thead th {
+    border: 1px solid black;
+    background-color: yellow;
+    
+}
+
+.tab tbody td {
+    border: 1px solid black ;
+    color: black ;
+}
+
+/*colors the first row yellow*/
+
+.tab tbody td:first-child {
+    background-color: yellow ;
+}
+
+/*Style the error messages ( label.*** will select the custom error message-
+.error will style the default error message) */
+label.error {
+    color: red;
+    font-style: italic;
+}
+
+input.error {
+    color: red;
+}
+
 
 .tabs {
 	margin: 0;
